@@ -11,8 +11,7 @@ from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
-from pdf2image import convert_from_bytes
-import pytesseract
+
 
 # Load environment variables
 load_dotenv(find_dotenv())
